@@ -1,0 +1,51 @@
+img {
+width: 180px;
+height: auto;
+}
+
+html{
+  display: flex; /*flex agit sur le parent, donc comme on veut centrer le body, on met le html en flex, et le content au centre*/
+  justify-content: center;
+  background-color: lightgrey;
+}
+
+body {
+    border: 5px dotted black;
+    width: 40%;
+    margin: 3% 3%;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+header{
+  background-image: url(vcard.jpg);
+  background-repeat:
+  background-attachment: fixed;
+background-size: cover;
+  display: flex;
+}
+main{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  background-color: white;
+}
+.photo{
+  flex: 1;
+}
+.noms{
+flex:2;
+font-size: 20px;
+
+color: ;
+}
+.about{
+
+}
+.info{
+
+  grid-column-start: 2;
+}
+ i {
+	font-size: 2em;
+  padding: 5px;
+  padding-bottom: 5px;
+  color: black;
+}
